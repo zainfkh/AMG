@@ -21,8 +21,8 @@ ul{
 }
 
 .nav1 img {
-    width: 62%;
-    margin-bottom: 5%;
+    width: 15%;
+    
 }
 
 .nav2 h3 {
@@ -51,7 +51,7 @@ ul{
     z-index: 1;
     display: none;
     position: absolute;
-    width: 150%;
+    width: 190%;
     text-align: center;
     right: 30%;
   
@@ -475,28 +475,11 @@ ul{
     body{
         text-align: center;
     }
-    .dropbtn{
-        padding: 7px 10px;
-        font-size: 12px;
+    .nav1 img {
+        width: 40%;
+        margin-bottom: 7%;
+        
     }
-    nav{
-        padding-right: 0;
-    }
-    .drop{
-        line-height: 0px;
-    }
-    .nav1 img{
-        width: 80%;
-        margin-bottom: 6%;
-        margin-left: 15%;
-    }
-    .nav2{
-        display: flex;
-    }
-    .drop-h{
-        padding:0 19px;
-         font-size: 12px;
-     }
      .part1-con{
         position: absolute;
         top: 46%;
@@ -514,6 +497,9 @@ ul{
         color: white;
         margin-left: 14%;
     }
+    .part3 video{
+        margin-left: 5%;
+    }
     .part4{
         margin-top: 45%;
     }
@@ -528,6 +514,9 @@ ul{
     }
     .part7{
         margin-top: 25%;
+    }
+    .part7 img,.part8 img{
+        margin-left: 5%;
     }
     .part7-con{
         margin-top: 5%;
@@ -568,6 +557,7 @@ ul{
     }
     .part12{
         margin-top: 70%;
+        margin-left: 5%;
     }
     .part12 h1{
         font-size: 5vw;
@@ -579,7 +569,7 @@ ul{
         margin-left: 5%;
     }
     .card img{
-        margin-left: 5%;
+        margin-left: 7%;
     }
     .part13{
         margin-top: 300%;
@@ -587,4 +577,11 @@ ul{
     .foot{
         font-size: 2vw;
     }
+    .part11::before {
+        width: 10%;
+    }
+    .icons{
+        margin-bottom: 7%;
+    }
+    
 }
