@@ -4,7 +4,7 @@ tl
     x:-100,
     duration:1
 })
-.from('.part1',{
+.from('.part1-con',{
     autoAlpha:0,
     scale:1.5,
     duration:1
