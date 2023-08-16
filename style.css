@@ -500,6 +500,9 @@ body::-webkit-scrollbar {
         width: 37%;
         height: 15%;
     }
+    .part1 video{
+        width: 110%;
+    }
     .part3-con {
         position: relative;
         bottom: 30%;
