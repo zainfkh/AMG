@@ -20,9 +20,9 @@ gsap.from('.part3',{
 })
 gsap.from('.part4',{
     autoAlpha:0,
-    x:100,
     scrollTrigger:{
         trigger:".part4",
+        toggleActions: 'play none none reverse',
         start:'top 50%'
     }
 })
@@ -31,7 +31,6 @@ gsap.from('.part5',{
     x:-100,
     scrollTrigger:{
         trigger:".part5",
-        toggleActions: 'play none none reverse',
         start:'top 50%'
     }
 })
@@ -46,7 +45,7 @@ gsap.from('.part6',{
 })
 gsap.from('.part7',{
     autoAlpha:0,
-    x:100,
+    x:-100,
     scrollTrigger:{
         trigger:".part7",
         start:'top 50%'
@@ -57,7 +56,6 @@ gsap.from('.part8',{
     x:-100,
     scrollTrigger:{
         trigger:".part8",
-        toggleActions: 'play none none reverse',
         start:'top 50%'
     }
 })
